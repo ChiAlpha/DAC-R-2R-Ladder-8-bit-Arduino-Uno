@@ -1,11 +1,11 @@
-/* 
+/*
 Made by Thariq Ramadhan, Muhamad Falih Akbar, and Ivy Averina
 Electrical Engineering, Bandung Institute of Technology
 */
 
 // Using Arduino Uno
 // DAC R-2R Ladder 8 bit tutorials and schematic can be seen at
-
+#include <Arduino.h>
 int valSin; // the sinwave variable
 void setup() {
   Serial.begin(9600);
